@@ -1,0 +1,754 @@
+[5:41:53 PM] Starting compilation in watch mode...
+@unified-tracking/user-service:dev: 
+@unified-tracking/database:db:generate: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+@unified-tracking/database:db:generate: Loaded Prisma config from prisma.config.ts.
+@unified-tracking/database:db:generate: 
+@unified-tracking/database:db:generate: Prisma schema loaded from prisma/schema.prisma.
+@unified-tracking/database:db:generate: 
+@unified-tracking/database:db:generate: 
+@unified-tracking/database:db:generate: ✔ Generated Prisma Client (v7.4.2) to ./../../node_modules/.pnpm/@prisma+client@7.4.2_prisma@7.4.2_@types+react@18.3.28_react-dom@18.3.1_react@18.3.1__r_89e51b849dbeb12a57fe96f45f250564/node_modules/@prisma/client in 1.65s
+@unified-tracking/database:db:generate: 
+@unified-tracking/database:db:generate: Start by importing your Prisma Client (See: https://pris.ly/d/importing-client)
+@unified-tracking/database:db:generate: 
+@unified-tracking/database:db:generate: 
+@unified-tracking/api-gateway:dev: [5:41:57 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/api-gateway:dev: 
+@unified-tracking/indoor-asset-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/indoor-asset-service:dev: 
+@unified-tracking/car-tracking-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/car-tracking-service:dev: 
+@unified-tracking/flight-tracking-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/flight-tracking-service:dev: 
+@unified-tracking/beacon-import-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/beacon-import-service:dev: 
+@unified-tracking/indoor-positioning:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/indoor-positioning:dev: 
+@unified-tracking/user-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/user-service:dev: 
+@unified-tracking/indoor-navigation:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/indoor-navigation:dev: 
+@unified-tracking/gps-device-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/gps-device-service:dev: 
+@unified-tracking/indoor-beacon-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/indoor-beacon-service:dev: 
+@unified-tracking/auth-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/auth-service:dev: 
+@unified-tracking/notification-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/notification-service:dev: 
+@unified-tracking/geofencing-service:dev: [5:41:59 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/geofencing-service:dev: 
+@unified-tracking/api-gateway:dev: [Nest] 7095  - 03/27/2026, 5:42:00 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/api-gateway:dev: [Nest] 7095  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AppModule dependencies initialized +12ms
+@unified-tracking/api-gateway:dev: 17:42:00 info [RoutesResolver] GatewayController {/}: {"service":"api-gateway"}
+@unified-tracking/api-gateway:dev: 17:42:00 info [RouterExplorer] Mapped {/health, GET} route {"service":"api-gateway"}
+@unified-tracking/api-gateway:dev: 17:42:00 info [RouterExplorer] Mapped {/, GET} route {"service":"api-gateway"}
+@unified-tracking/api-gateway:dev: 17:42:00 info [NestApplication] Nest application successfully started {"service":"api-gateway"}
+@unified-tracking/api-gateway:dev: 🚀 API Gateway running on port 3000
+@unified-tracking/device-lookup-service:dev: [5:42:00 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/device-lookup-service:dev: 
+@unified-tracking/admin-service:dev: [5:42:00 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/admin-service:dev: 
+@unified-tracking/indoor-asset-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+@unified-tracking/flight-tracking-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  suppress all logs with { quiet: true }
+@unified-tracking/indoor-positioning:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+@unified-tracking/car-tracking-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+@unified-tracking/asset-lookup-service:dev: [5:42:00 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/asset-lookup-service:dev: 
+@unified-tracking/gps-location-service:dev: [5:42:00 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/gps-location-service:dev: 
+@unified-tracking/beacon-import-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+@unified-tracking/indoor-positioning:dev: [Nest] 7155  - 03/27/2026, 5:42:00 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/indoor-asset-service:dev: [Nest] 7124  - 03/27/2026, 5:42:00 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/indoor-asset-service:dev: [Nest] 7124  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AppModule dependencies initialized +14ms
+@unified-tracking/indoor-asset-service:dev: [Nest] 7124  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/indoor-asset-service:dev: [Nest] 7124  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/indoor-positioning:dev: [Nest] 7155  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AppModule dependencies initialized +19ms
+@unified-tracking/indoor-positioning:dev: [Nest] 7155  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +1ms
+@unified-tracking/indoor-positioning:dev: [Nest] 7155  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/indoor-asset-service:dev: [Nest] 7124  - 03/27/2026, 5:42:00 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/indoor-asset-service:dev: 
+@unified-tracking/indoor-asset-service:dev: Potential solutions:
+@unified-tracking/indoor-asset-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/indoor-asset-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/indoor-asset-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/indoor-asset-service:dev:   @Module({
+@unified-tracking/indoor-asset-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/indoor-asset-service:dev:   })
+@unified-tracking/indoor-asset-service:dev: 
+@unified-tracking/indoor-asset-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/indoor-asset-service:dev: 
+@unified-tracking/indoor-asset-service:dev: Potential solutions:
+@unified-tracking/indoor-asset-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/indoor-asset-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/indoor-asset-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/indoor-asset-service:dev:   @Module({
+@unified-tracking/indoor-asset-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/indoor-asset-service:dev:   })
+@unified-tracking/indoor-asset-service:dev: 
+@unified-tracking/indoor-asset-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/indoor-asset-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/indoor-asset-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/indoor-asset-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/indoor-asset-service:dev:     at async Promise.all (index 0)
+@unified-tracking/indoor-asset-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/indoor-asset-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/indoor-asset-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/indoor-asset-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/indoor-asset-service:dev:     at async Promise.all (index 8)
+@unified-tracking/indoor-positioning:dev: [Nest] 7155  - 03/27/2026, 5:42:00 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/indoor-positioning:dev: 
+@unified-tracking/indoor-positioning:dev: Potential solutions:
+@unified-tracking/indoor-positioning:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/indoor-positioning:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/indoor-positioning:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/indoor-positioning:dev:   @Module({
+@unified-tracking/indoor-positioning:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/indoor-positioning:dev:   })
+@unified-tracking/indoor-positioning:dev: 
+@unified-tracking/indoor-positioning:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/indoor-positioning:dev: 
+@unified-tracking/indoor-positioning:dev: Potential solutions:
+@unified-tracking/indoor-positioning:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/indoor-positioning:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/indoor-positioning:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/indoor-positioning:dev:   @Module({
+@unified-tracking/indoor-positioning:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/indoor-positioning:dev:   })
+@unified-tracking/indoor-positioning:dev: 
+@unified-tracking/indoor-positioning:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/indoor-positioning:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/indoor-positioning:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/indoor-positioning:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/indoor-positioning:dev:     at async Promise.all (index 0)
+@unified-tracking/indoor-positioning:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/indoor-positioning:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/indoor-positioning:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/indoor-positioning:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/indoor-positioning:dev:     at async Promise.all (index 8)
+@unified-tracking/beacon-import-service:dev: [Nest] 7147  - 03/27/2026, 5:42:00 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/user-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  suppress all logs with { quiet: true }
+@unified-tracking/beacon-import-service:dev: [Nest] 7147  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AppModule dependencies initialized +20ms
+@unified-tracking/beacon-import-service:dev: [Nest] 7147  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/beacon-import-service:dev: [Nest] 7147  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/beacon-import-service:dev: [Nest] 7147  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] DiscoveryModule dependencies initialized +0ms
+@unified-tracking/beacon-import-service:dev: [Nest] 7147  - 03/27/2026, 5:42:00 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/beacon-import-service:dev: 
+@unified-tracking/beacon-import-service:dev: Potential solutions:
+@unified-tracking/beacon-import-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/beacon-import-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/beacon-import-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/beacon-import-service:dev:   @Module({
+@unified-tracking/beacon-import-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/beacon-import-service:dev:   })
+@unified-tracking/beacon-import-service:dev: 
+@unified-tracking/beacon-import-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/beacon-import-service:dev: 
+@unified-tracking/beacon-import-service:dev: Potential solutions:
+@unified-tracking/beacon-import-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/beacon-import-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/beacon-import-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/beacon-import-service:dev:   @Module({
+@unified-tracking/beacon-import-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/beacon-import-service:dev:   })
+@unified-tracking/beacon-import-service:dev: 
+@unified-tracking/beacon-import-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/beacon-import-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/beacon-import-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/beacon-import-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/beacon-import-service:dev:     at async Promise.all (index 0)
+@unified-tracking/beacon-import-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/beacon-import-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/beacon-import-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/beacon-import-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/beacon-import-service:dev:     at async Promise.all (index 8)
+@unified-tracking/flight-tracking-service:dev: [Nest] 7134  - 03/27/2026, 5:42:00 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/car-tracking-service:dev: [Nest] 7133  - 03/27/2026, 5:42:00 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/flight-tracking-service:dev: [Nest] 7134  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AppModule dependencies initialized +24ms
+@unified-tracking/flight-tracking-service:dev: [Nest] 7134  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/flight-tracking-service:dev: [Nest] 7134  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
+@unified-tracking/flight-tracking-service:dev: [Nest] 7134  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/flight-tracking-service:dev: [Nest] 7134  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] OpenSkyModule dependencies initialized +0ms
+@unified-tracking/flight-tracking-service:dev: [Nest] 7134  - 03/27/2026, 5:42:00 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/flight-tracking-service:dev: 
+@unified-tracking/flight-tracking-service:dev: Potential solutions:
+@unified-tracking/flight-tracking-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/flight-tracking-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/flight-tracking-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/flight-tracking-service:dev:   @Module({
+@unified-tracking/flight-tracking-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/flight-tracking-service:dev:   })
+@unified-tracking/flight-tracking-service:dev: 
+@unified-tracking/flight-tracking-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/flight-tracking-service:dev: 
+@unified-tracking/flight-tracking-service:dev: Potential solutions:
+@unified-tracking/flight-tracking-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/flight-tracking-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/flight-tracking-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/flight-tracking-service:dev:   @Module({
+@unified-tracking/flight-tracking-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/flight-tracking-service:dev:   })
+@unified-tracking/flight-tracking-service:dev: 
+@unified-tracking/flight-tracking-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/flight-tracking-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/flight-tracking-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/flight-tracking-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/flight-tracking-service:dev:     at async Promise.all (index 0)
+@unified-tracking/flight-tracking-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/flight-tracking-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/flight-tracking-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/flight-tracking-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/flight-tracking-service:dev:     at async Promise.all (index 8)
+@unified-tracking/car-tracking-service:dev: [Nest] 7133  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AppModule dependencies initialized +17ms
+@unified-tracking/car-tracking-service:dev: [Nest] 7133  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/car-tracking-service:dev: [Nest] 7133  - 03/27/2026, 5:42:00 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/car-tracking-service:dev: 
+@unified-tracking/car-tracking-service:dev: Potential solutions:
+@unified-tracking/car-tracking-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/car-tracking-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/car-tracking-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/car-tracking-service:dev:   @Module({
+@unified-tracking/car-tracking-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/car-tracking-service:dev:   })
+@unified-tracking/car-tracking-service:dev: 
+@unified-tracking/car-tracking-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/car-tracking-service:dev: 
+@unified-tracking/car-tracking-service:dev: Potential solutions:
+@unified-tracking/car-tracking-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/car-tracking-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/car-tracking-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/car-tracking-service:dev:   @Module({
+@unified-tracking/car-tracking-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/car-tracking-service:dev:   })
+@unified-tracking/car-tracking-service:dev: 
+@unified-tracking/car-tracking-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/car-tracking-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/car-tracking-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/car-tracking-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/car-tracking-service:dev:     at async Promise.all (index 0)
+@unified-tracking/car-tracking-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/car-tracking-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/car-tracking-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/car-tracking-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/car-tracking-service:dev:     at async Promise.all (index 8)
+@unified-tracking/indoor-navigation:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+@unified-tracking/auth-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🛡️ auth for agents: https://vestauth.com
+@unified-tracking/indoor-beacon-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+@unified-tracking/user-service:dev: [Nest] 7169  - 03/27/2026, 5:42:00 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/gps-device-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  suppress all logs with { quiet: true }
+@unified-tracking/search-service:dev: [5:42:00 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/search-service:dev: 
+@unified-tracking/user-service:dev: [Nest] 7169  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AppModule dependencies initialized +14ms
+@unified-tracking/user-service:dev: [Nest] 7169  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/user-service:dev: [Nest] 7169  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +1ms
+@unified-tracking/user-service:dev: [Nest] 7169  - 03/27/2026, 5:42:00 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/user-service:dev: 
+@unified-tracking/user-service:dev: Potential solutions:
+@unified-tracking/user-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/user-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/user-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/user-service:dev:   @Module({
+@unified-tracking/user-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/user-service:dev:   })
+@unified-tracking/user-service:dev: 
+@unified-tracking/user-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/user-service:dev: 
+@unified-tracking/user-service:dev: Potential solutions:
+@unified-tracking/user-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/user-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/user-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/user-service:dev:   @Module({
+@unified-tracking/user-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/user-service:dev:   })
+@unified-tracking/user-service:dev: 
+@unified-tracking/user-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/user-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/user-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/user-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/user-service:dev:     at async Promise.all (index 0)
+@unified-tracking/user-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/user-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/user-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/user-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/user-service:dev:     at async Promise.all (index 8)
+@unified-tracking/notification-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+@unified-tracking/geofencing-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+@unified-tracking/websocket-service:dev: [5:42:00 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/websocket-service:dev: 
+@unified-tracking/indoor-navigation:dev: [Nest] 7179  - 03/27/2026, 5:42:00 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/indoor-navigation:dev: [Nest] 7179  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] AppModule dependencies initialized +12ms
+@unified-tracking/indoor-navigation:dev: [Nest] 7179  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/indoor-navigation:dev: [Nest] 7179  - 03/27/2026, 5:42:00 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/indoor-navigation:dev: [Nest] 7179  - 03/27/2026, 5:42:00 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/indoor-navigation:dev: 
+@unified-tracking/indoor-navigation:dev: Potential solutions:
+@unified-tracking/indoor-navigation:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/indoor-navigation:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/indoor-navigation:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/indoor-navigation:dev:   @Module({
+@unified-tracking/indoor-navigation:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/indoor-navigation:dev:   })
+@unified-tracking/indoor-navigation:dev: 
+@unified-tracking/indoor-navigation:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/indoor-navigation:dev: 
+@unified-tracking/indoor-navigation:dev: Potential solutions:
+@unified-tracking/indoor-navigation:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/indoor-navigation:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/indoor-navigation:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/indoor-navigation:dev:   @Module({
+@unified-tracking/indoor-navigation:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/indoor-navigation:dev:   })
+@unified-tracking/indoor-navigation:dev: 
+@unified-tracking/indoor-navigation:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/indoor-navigation:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/indoor-navigation:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/indoor-navigation:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/indoor-navigation:dev:     at async Promise.all (index 0)
+@unified-tracking/indoor-navigation:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/indoor-navigation:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/indoor-navigation:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/indoor-navigation:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/indoor-navigation:dev:     at async Promise.all (index 8)
+@unified-tracking/auth-service:dev: [Nest] 7207  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/indoor-beacon-service:dev: [Nest] 7194  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/auth-service:dev: [Nest] 7207  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +12ms
+@unified-tracking/auth-service:dev: [Nest] 7207  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/auth-service:dev: [Nest] 7207  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +1ms
+@unified-tracking/auth-service:dev: [Nest] 7207  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/auth-service:dev: 
+@unified-tracking/auth-service:dev: Potential solutions:
+@unified-tracking/auth-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/auth-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/auth-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/auth-service:dev:   @Module({
+@unified-tracking/auth-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/auth-service:dev:   })
+@unified-tracking/auth-service:dev: 
+@unified-tracking/auth-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/auth-service:dev: 
+@unified-tracking/auth-service:dev: Potential solutions:
+@unified-tracking/auth-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/auth-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/auth-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/auth-service:dev:   @Module({
+@unified-tracking/auth-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/auth-service:dev:   })
+@unified-tracking/auth-service:dev: 
+@unified-tracking/auth-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/auth-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/auth-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/auth-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/auth-service:dev:     at async Promise.all (index 0)
+@unified-tracking/auth-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/auth-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/auth-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/auth-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/auth-service:dev:     at async Promise.all (index 8)
+@unified-tracking/indoor-beacon-service:dev: [Nest] 7194  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +16ms
+@unified-tracking/indoor-beacon-service:dev: [Nest] 7194  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +1ms
+@unified-tracking/indoor-beacon-service:dev: [Nest] 7194  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/indoor-beacon-service:dev: [Nest] 7194  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/indoor-beacon-service:dev: 
+@unified-tracking/indoor-beacon-service:dev: Potential solutions:
+@unified-tracking/indoor-beacon-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/indoor-beacon-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/indoor-beacon-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/indoor-beacon-service:dev:   @Module({
+@unified-tracking/indoor-beacon-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/indoor-beacon-service:dev:   })
+@unified-tracking/indoor-beacon-service:dev: 
+@unified-tracking/indoor-beacon-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/indoor-beacon-service:dev: 
+@unified-tracking/indoor-beacon-service:dev: Potential solutions:
+@unified-tracking/indoor-beacon-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/indoor-beacon-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/indoor-beacon-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/indoor-beacon-service:dev:   @Module({
+@unified-tracking/indoor-beacon-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/indoor-beacon-service:dev:   })
+@unified-tracking/indoor-beacon-service:dev: 
+@unified-tracking/indoor-beacon-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/indoor-beacon-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/indoor-beacon-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/indoor-beacon-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/indoor-beacon-service:dev:     at async Promise.all (index 0)
+@unified-tracking/indoor-beacon-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/indoor-beacon-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/indoor-beacon-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/indoor-beacon-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/indoor-beacon-service:dev:     at async Promise.all (index 8)
+@unified-tracking/gps-device-service:dev: [Nest] 7188  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/gps-device-service:dev: [Nest] 7188  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +13ms
+@unified-tracking/gps-device-service:dev: [Nest] 7188  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/gps-device-service:dev: [Nest] 7188  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/geofencing-service:dev: [Nest] 7228  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/gps-device-service:dev: [Nest] 7188  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/gps-device-service:dev: 
+@unified-tracking/gps-device-service:dev: Potential solutions:
+@unified-tracking/gps-device-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/gps-device-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/gps-device-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/gps-device-service:dev:   @Module({
+@unified-tracking/gps-device-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/gps-device-service:dev:   })
+@unified-tracking/gps-device-service:dev: 
+@unified-tracking/gps-device-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/gps-device-service:dev: 
+@unified-tracking/gps-device-service:dev: Potential solutions:
+@unified-tracking/gps-device-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/gps-device-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/gps-device-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/gps-device-service:dev:   @Module({
+@unified-tracking/gps-device-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/gps-device-service:dev:   })
+@unified-tracking/gps-device-service:dev: 
+@unified-tracking/gps-device-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/gps-device-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/gps-device-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/gps-device-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/gps-device-service:dev:     at async Promise.all (index 0)
+@unified-tracking/gps-device-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/gps-device-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/gps-device-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/gps-device-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/gps-device-service:dev:     at async Promise.all (index 8)
+@unified-tracking/geofencing-service:dev: [Nest] 7228  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +12ms
+@unified-tracking/geofencing-service:dev: [Nest] 7228  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/geofencing-service:dev: [Nest] 7228  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/geofencing-service:dev: [Nest] 7228  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/geofencing-service:dev: 
+@unified-tracking/geofencing-service:dev: Potential solutions:
+@unified-tracking/geofencing-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/geofencing-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/geofencing-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/geofencing-service:dev:   @Module({
+@unified-tracking/geofencing-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/geofencing-service:dev:   })
+@unified-tracking/geofencing-service:dev: 
+@unified-tracking/geofencing-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/geofencing-service:dev: 
+@unified-tracking/geofencing-service:dev: Potential solutions:
+@unified-tracking/geofencing-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/geofencing-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/geofencing-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/geofencing-service:dev:   @Module({
+@unified-tracking/geofencing-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/geofencing-service:dev:   })
+@unified-tracking/geofencing-service:dev: 
+@unified-tracking/geofencing-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/geofencing-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/geofencing-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/geofencing-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/geofencing-service:dev:     at async Promise.all (index 0)
+@unified-tracking/geofencing-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/geofencing-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/geofencing-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/geofencing-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/geofencing-service:dev:     at async Promise.all (index 8)
+@unified-tracking/notification-service:dev: [Nest] 7221  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/notification-service:dev: [NotificationsService] SMTP_HOST not configured — email notifications are disabled
+@unified-tracking/notification-service:dev: [Nest] 7221  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +18ms
+@unified-tracking/notification-service:dev: [Nest] 7221  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/notification-service:dev: [Nest] 7221  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/notification-service:dev: [Nest] 7221  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/notification-service:dev: 
+@unified-tracking/notification-service:dev: Potential solutions:
+@unified-tracking/notification-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/notification-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/notification-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/notification-service:dev:   @Module({
+@unified-tracking/notification-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/notification-service:dev:   })
+@unified-tracking/notification-service:dev: 
+@unified-tracking/notification-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/notification-service:dev: 
+@unified-tracking/notification-service:dev: Potential solutions:
+@unified-tracking/notification-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/notification-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/notification-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/notification-service:dev:   @Module({
+@unified-tracking/notification-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/notification-service:dev:   })
+@unified-tracking/notification-service:dev: 
+@unified-tracking/notification-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/notification-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/notification-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/notification-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/notification-service:dev:     at async Promise.all (index 0)
+@unified-tracking/notification-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/notification-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/notification-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/notification-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/notification-service:dev:     at async Promise.all (index 8)
+@unified-tracking/payment-service:dev: [5:42:01 PM] Found 0 errors. Watching for file changes.
+@unified-tracking/payment-service:dev: 
+@unified-tracking/admin-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+@unified-tracking/admin-service:dev: [Nest] 7252  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/admin-service:dev: [Nest] 7252  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +13ms
+@unified-tracking/admin-service:dev: [Nest] 7252  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/admin-service:dev: [Nest] 7252  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/gps-location-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+@unified-tracking/admin-service:dev: [Nest] 7252  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/admin-service:dev: 
+@unified-tracking/admin-service:dev: Potential solutions:
+@unified-tracking/admin-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/admin-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/admin-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/admin-service:dev:   @Module({
+@unified-tracking/admin-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/admin-service:dev:   })
+@unified-tracking/admin-service:dev: 
+@unified-tracking/admin-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/admin-service:dev: 
+@unified-tracking/admin-service:dev: Potential solutions:
+@unified-tracking/admin-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/admin-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/admin-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/admin-service:dev:   @Module({
+@unified-tracking/admin-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/admin-service:dev:   })
+@unified-tracking/admin-service:dev: 
+@unified-tracking/admin-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/admin-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/admin-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/admin-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/admin-service:dev:     at async Promise.all (index 0)
+@unified-tracking/admin-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/admin-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/admin-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/admin-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/admin-service:dev:     at async Promise.all (index 8)
+@unified-tracking/device-lookup-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+@unified-tracking/asset-lookup-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: ⚙️  override existing env vars with { override: true }
+@unified-tracking/search-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+@unified-tracking/device-lookup-service:dev: [Nest] 7244  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/asset-lookup-service:dev: [Nest] 7260  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/device-lookup-service:dev: [Nest] 7244  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +21ms
+@unified-tracking/device-lookup-service:dev: [Nest] 7244  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/device-lookup-service:dev: [Nest] 7244  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] IndexingModule dependencies initialized +0ms
+@unified-tracking/device-lookup-service:dev: [Nest] 7244  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/device-lookup-service:dev: 
+@unified-tracking/device-lookup-service:dev: Potential solutions:
+@unified-tracking/device-lookup-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/device-lookup-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/device-lookup-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/device-lookup-service:dev:   @Module({
+@unified-tracking/device-lookup-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/device-lookup-service:dev:   })
+@unified-tracking/device-lookup-service:dev: 
+@unified-tracking/device-lookup-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/device-lookup-service:dev: 
+@unified-tracking/device-lookup-service:dev: Potential solutions:
+@unified-tracking/device-lookup-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/device-lookup-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/device-lookup-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/device-lookup-service:dev:   @Module({
+@unified-tracking/device-lookup-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/device-lookup-service:dev:   })
+@unified-tracking/device-lookup-service:dev: 
+@unified-tracking/device-lookup-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/device-lookup-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/device-lookup-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/device-lookup-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/device-lookup-service:dev:     at async Promise.all (index 0)
+@unified-tracking/device-lookup-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/device-lookup-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/device-lookup-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/device-lookup-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/device-lookup-service:dev:     at async Promise.all (index 8)
+@unified-tracking/asset-lookup-service:dev: [Nest] 7260  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +25ms
+@unified-tracking/asset-lookup-service:dev: [Nest] 7260  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/asset-lookup-service:dev: [Nest] 7260  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] IndexingModule dependencies initialized +0ms
+@unified-tracking/asset-lookup-service:dev: [Nest] 7260  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/asset-lookup-service:dev: 
+@unified-tracking/asset-lookup-service:dev: Potential solutions:
+@unified-tracking/asset-lookup-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/asset-lookup-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/asset-lookup-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/asset-lookup-service:dev:   @Module({
+@unified-tracking/asset-lookup-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/asset-lookup-service:dev:   })
+@unified-tracking/asset-lookup-service:dev: 
+@unified-tracking/asset-lookup-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/asset-lookup-service:dev: 
+@unified-tracking/asset-lookup-service:dev: Potential solutions:
+@unified-tracking/asset-lookup-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/asset-lookup-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/asset-lookup-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/asset-lookup-service:dev:   @Module({
+@unified-tracking/asset-lookup-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/asset-lookup-service:dev:   })
+@unified-tracking/asset-lookup-service:dev: 
+@unified-tracking/asset-lookup-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/asset-lookup-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/asset-lookup-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/asset-lookup-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/asset-lookup-service:dev:     at async Promise.all (index 0)
+@unified-tracking/asset-lookup-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/asset-lookup-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/asset-lookup-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/asset-lookup-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/asset-lookup-service:dev:     at async Promise.all (index 8)
+@unified-tracking/gps-location-service:dev: [Nest] 7268  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/gps-location-service:dev: [Nest] 7268  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +13ms
+@unified-tracking/gps-location-service:dev: [Nest] 7268  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/gps-location-service:dev: [Nest] 7268  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/gps-location-service:dev: [Nest] 7268  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/gps-location-service:dev: 
+@unified-tracking/gps-location-service:dev: Potential solutions:
+@unified-tracking/gps-location-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/gps-location-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/gps-location-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/gps-location-service:dev:   @Module({
+@unified-tracking/gps-location-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/gps-location-service:dev:   })
+@unified-tracking/gps-location-service:dev: 
+@unified-tracking/gps-location-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/gps-location-service:dev: 
+@unified-tracking/gps-location-service:dev: Potential solutions:
+@unified-tracking/gps-location-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/gps-location-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/gps-location-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/gps-location-service:dev:   @Module({
+@unified-tracking/gps-location-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/gps-location-service:dev:   })
+@unified-tracking/gps-location-service:dev: 
+@unified-tracking/gps-location-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/gps-location-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/gps-location-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/gps-location-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/gps-location-service:dev:     at async Promise.all (index 0)
+@unified-tracking/gps-location-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/gps-location-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/gps-location-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/gps-location-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/gps-location-service:dev:     at async Promise.all (index 8)
+@unified-tracking/websocket-service:dev: [Nest] 7288  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/websocket-service:dev: [Nest] 7288  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] EventsModule dependencies initialized +7ms
+@unified-tracking/websocket-service:dev: [Nest] 7288  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the InternalController (?). Please make sure that the argument EventsGateway at index [0] is available in the AppModule context.
+@unified-tracking/websocket-service:dev: 
+@unified-tracking/websocket-service:dev: Potential solutions:
+@unified-tracking/websocket-service:dev: - Is AppModule a valid NestJS module?
+@unified-tracking/websocket-service:dev: - If EventsGateway is a provider, is it part of the current AppModule?
+@unified-tracking/websocket-service:dev: - If EventsGateway is exported from a separate @Module, is that module imported within AppModule?
+@unified-tracking/websocket-service:dev:   @Module({
+@unified-tracking/websocket-service:dev:     imports: [ /* the Module containing EventsGateway */ ]
+@unified-tracking/websocket-service:dev:   })
+@unified-tracking/websocket-service:dev: 
+@unified-tracking/websocket-service:dev: Error: Nest can't resolve dependencies of the InternalController (?). Please make sure that the argument EventsGateway at index [0] is available in the AppModule context.
+@unified-tracking/websocket-service:dev: 
+@unified-tracking/websocket-service:dev: Potential solutions:
+@unified-tracking/websocket-service:dev: - Is AppModule a valid NestJS module?
+@unified-tracking/websocket-service:dev: - If EventsGateway is a provider, is it part of the current AppModule?
+@unified-tracking/websocket-service:dev: - If EventsGateway is exported from a separate @Module, is that module imported within AppModule?
+@unified-tracking/websocket-service:dev:   @Module({
+@unified-tracking/websocket-service:dev:     imports: [ /* the Module containing EventsGateway */ ]
+@unified-tracking/websocket-service:dev:   })
+@unified-tracking/websocket-service:dev: 
+@unified-tracking/websocket-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_8deffeedfc886d7d35409f0d92607af8/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/websocket-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_8deffeedfc886d7d35409f0d92607af8/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/websocket-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_8deffeedfc886d7d35409f0d92607af8/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/websocket-service:dev:     at async Promise.all (index 0)
+@unified-tracking/websocket-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_8deffeedfc886d7d35409f0d92607af8/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/websocket-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_8deffeedfc886d7d35409f0d92607af8/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/websocket-service:dev:     at async Injector.loadController (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_8deffeedfc886d7d35409f0d92607af8/node_modules/@nestjs/core/injector/injector.js:89:9)
+@unified-tracking/websocket-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_8deffeedfc886d7d35409f0d92607af8/node_modules/@nestjs/core/injector/instance-loader.js:68:13
+@unified-tracking/websocket-service:dev:     at async Promise.all (index 0)
+@unified-tracking/websocket-service:dev:     at async InstanceLoader.createInstancesOfControllers (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_8deffeedfc886d7d35409f0d92607af8/node_modules/@nestjs/core/injector/instance-loader.js:67:9)
+@unified-tracking/payment-service:dev: [dotenv@17.3.1] injecting env (36) from ../../.env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+@unified-tracking/search-service:dev: [Nest] 7280  - 03/27/2026, 5:42:01 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/search-service:dev: [Nest] 7280  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] AppModule dependencies initialized +14ms
+@unified-tracking/search-service:dev: [Nest] 7280  - 03/27/2026, 5:42:01 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
+@unified-tracking/search-service:dev: [Nest] 7280  - 03/27/2026, 5:42:01 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/search-service:dev: 
+@unified-tracking/search-service:dev: Potential solutions:
+@unified-tracking/search-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/search-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/search-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/search-service:dev:   @Module({
+@unified-tracking/search-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/search-service:dev:   })
+@unified-tracking/search-service:dev: 
+@unified-tracking/search-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/search-service:dev: 
+@unified-tracking/search-service:dev: Potential solutions:
+@unified-tracking/search-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/search-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/search-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/search-service:dev:   @Module({
+@unified-tracking/search-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/search-service:dev:   })
+@unified-tracking/search-service:dev: 
+@unified-tracking/search-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/search-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/search-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/search-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/search-service:dev:     at async Promise.all (index 0)
+@unified-tracking/search-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/search-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/search-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/search-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_20db045583bc571f8afad53a02391131/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/search-service:dev:     at async Promise.all (index 8)
+@unified-tracking/payment-service:dev: [Nest] 7298  - 03/27/2026, 5:42:02 PM     LOG [NestFactory] Starting Nest application...
+@unified-tracking/payment-service:dev: [Nest] 7298  - 03/27/2026, 5:42:02 PM     LOG [InstanceLoader] PrismaModule dependencies initialized +20ms
+@unified-tracking/payment-service:dev: [Nest] 7298  - 03/27/2026, 5:42:02 PM     LOG [InstanceLoader] EventsModule dependencies initialized +0ms
+@unified-tracking/payment-service:dev: [Nest] 7298  - 03/27/2026, 5:42:02 PM     LOG [InstanceLoader] ThrottlerModule dependencies initialized +0ms
+@unified-tracking/payment-service:dev: [Nest] 7298  - 03/27/2026, 5:42:02 PM     LOG [InstanceLoader] JwtModule dependencies initialized +1ms
+@unified-tracking/payment-service:dev: [Nest] 7298  - 03/27/2026, 5:42:02 PM   ERROR [ExceptionHandler] Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/payment-service:dev: 
+@unified-tracking/payment-service:dev: Potential solutions:
+@unified-tracking/payment-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/payment-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/payment-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/payment-service:dev:   @Module({
+@unified-tracking/payment-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/payment-service:dev:   })
+@unified-tracking/payment-service:dev: 
+@unified-tracking/payment-service:dev: Error: Nest can't resolve dependencies of the TypeOrmHealthIndicator (?). Please make sure that the argument ModuleRef at index [0] is available in the TerminusModule context.
+@unified-tracking/payment-service:dev: 
+@unified-tracking/payment-service:dev: Potential solutions:
+@unified-tracking/payment-service:dev: - Is TerminusModule a valid NestJS module?
+@unified-tracking/payment-service:dev: - If ModuleRef is a provider, is it part of the current TerminusModule?
+@unified-tracking/payment-service:dev: - If ModuleRef is exported from a separate @Module, is that module imported within TerminusModule?
+@unified-tracking/payment-service:dev:   @Module({
+@unified-tracking/payment-service:dev:     imports: [ /* the Module containing ModuleRef */ ]
+@unified-tracking/payment-service:dev:   })
+@unified-tracking/payment-service:dev: 
+@unified-tracking/payment-service:dev:     at Injector.lookupComponentInParentModules (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_5d5068540c9a287c196b57cfa2f22ea7/node_modules/@nestjs/core/injector/injector.js:262:19)
+@unified-tracking/payment-service:dev:     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+@unified-tracking/payment-service:dev:     at async Injector.resolveComponentInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_5d5068540c9a287c196b57cfa2f22ea7/node_modules/@nestjs/core/injector/injector.js:215:33)
+@unified-tracking/payment-service:dev:     at async resolveParam (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_5d5068540c9a287c196b57cfa2f22ea7/node_modules/@nestjs/core/injector/injector.js:129:38)
+@unified-tracking/payment-service:dev:     at async Promise.all (index 0)
+@unified-tracking/payment-service:dev:     at async Injector.resolveConstructorParams (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_5d5068540c9a287c196b57cfa2f22ea7/node_modules/@nestjs/core/injector/injector.js:144:27)
+@unified-tracking/payment-service:dev:     at async Injector.loadInstance (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_5d5068540c9a287c196b57cfa2f22ea7/node_modules/@nestjs/core/injector/injector.js:70:13)
+@unified-tracking/payment-service:dev:     at async Injector.loadProvider (/unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_5d5068540c9a287c196b57cfa2f22ea7/node_modules/@nestjs/core/injector/injector.js:98:9)
+@unified-tracking/payment-service:dev:     at async /unified-tracking-platform/node_modules/.pnpm/@nestjs+core@10.4.22_@nestjs+common@10.4.22_class-transformer@0.5.1_class-validator@0.1_5d5068540c9a287c196b57cfa2f22ea7/node_modules/@nestjs/core/injector/instance-loader.js:56:13
+@unified-tracking/payment-service:dev:     at async Promise.all (index 8)
+^C⠁                                                                                                                                                                                            ELIFECYCLE  Command failed.
+@unified-tracking/unified-dashboard:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/admin-dashboard:dev:  ELIFECYCLE  Command failed.
+
+root@sekemas:/unified-tracking-platform# @unified-tracking/api-gateway:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/websocket-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/indoor-beacon-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/gps-device-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/user-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/car-tracking-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/indoor-asset-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/auth-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/geofencing-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/notification-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/admin-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/flight-tracking-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/indoor-navigation:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/beacon-import-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/indoor-positioning:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/search-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/gps-location-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/asset-lookup-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/payment-service:dev:  ELIFECYCLE  Command failed.
+@unified-tracking/device-lookup-service:dev:  ELIFECYCLE  Command failed.
+ ERROR  run failed: command  exited (1)
+^C
+root@sekemas:/unified-tracking-platform# 
+
+
